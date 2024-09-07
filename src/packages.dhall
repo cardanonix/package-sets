@@ -2475,34 +2475,40 @@
   }
 , hyrule =
   { dependencies =
-    [ "arrays"
-    , "control"
-    , "datetime"
-    , "debug"
-    , "effect"
-    , "either"
-    , "filterable"
-    , "foldable-traversable"
-    , "js-timers"
-    , "lists"
-    , "maybe"
-    , "newtype"
-    , "now"
-    , "ordered-collections"
-    , "partial"
-    , "prelude"
-    , "record"
-    , "refs"
-    , "st"
-    , "tuples"
-    , "unsafe-coerce"
-    , "unsafe-reference"
-    , "web-events"
-    , "web-html"
-    , "web-uievents"
+    [ "aff",
+      "arrays",
+      "avar",
+      "contravariant",
+      "control",
+      "datetime",
+      "effect",
+      "either",
+      "filterable",
+      "foldable-traversable",
+      "foreign-object",
+      "free",
+      "functors",
+      "js-timers",
+      "maybe",
+      "newtype",
+      "now",
+      "ordered-collections",
+      "partial",
+      "prelude",
+      "profunctor",
+      "random",
+      "refs",
+      "safe-coerce",
+      "st",
+      "tailrec",
+      "tuples",
+      "unsafe-coerce",
+      "web-events",
+      "web-html",
+      "web-uievents"
     ]
   , repo = "https://github.com/mikesol/purescript-hyrule.git"
-  , version = "v2.3.8"
+  , version = "v2.5.1"
   }
 , identity =
   { dependencies = [ "control", "invariant", "newtype", "prelude" ]
